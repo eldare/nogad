@@ -5,6 +5,7 @@
 }
 
 body {
+    background: url("background.mp4") center center/cover no-repeat;
     font-family: Arial, sans-serif;
     color: #fff;
     display: flex;
