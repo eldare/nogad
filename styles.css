@@ -30,6 +30,7 @@ body {
     border-radius: 50%;
     border: 4px double #fff;
     object-fit: cover;
+    background-color: #000;
 }
 
 .announcement {
