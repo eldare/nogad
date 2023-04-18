@@ -12,11 +12,15 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    position: relative;
 }
 
 .container {
     text-align: center;
     max-width: 600px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo {
@@ -47,15 +51,19 @@ video {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    background-color: #000;
 }
 
-.overlay {
+.footer {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
-    z-index: -1;
+    height: 40px;
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
 }
